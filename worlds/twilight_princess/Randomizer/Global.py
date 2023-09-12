@@ -42,7 +42,7 @@ class Global:
         
         os.mkdir(self.outputPath)
     
-    def Init():
+    def Init(self):
         pass
     
     def CombineOutputPath(self, paths):
@@ -67,7 +67,7 @@ class Global:
             if os.path.exists(outputConfigPath):
                 return path
             
-    def __ResolvePath(path1, path2):
+    def __ResolvePath(self, path1, path2):
         path2 = os.path.abspath(path2)
         return os.path.join(path1, path2)
         
