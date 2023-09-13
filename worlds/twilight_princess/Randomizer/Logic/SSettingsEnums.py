@@ -36,6 +36,13 @@ class BigKeySettings(Enum):
     Anywhere = 3
     Start_With = 4
     
+class MapAndCompassSettings(Enum):
+    Vanilla = 0
+    Own_Dungeon = 1
+    Any_Dungeon = 2
+    Anywhere = 3
+    Start_With = 4
+    
 class TrapFrequency(Enum):
     Zero = 0 # Changed None to Zero due to python built-in type
     Few = 1
