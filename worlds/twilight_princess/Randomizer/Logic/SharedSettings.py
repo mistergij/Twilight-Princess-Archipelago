@@ -5,7 +5,6 @@ from SSettingsEnums import (BigKeySettings, CastleRequirements,
 
 
 class SharedSettings:
-#TODO: Implement SSettingsEnums
     def __init__(self):
         self._logicRules = LogicRules
         self._castleRequirements = CastleRequirements
