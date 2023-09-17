@@ -45,3 +45,9 @@ class SharedSettings:
         self.startingItems = []
         self.excludedChecks = []
     
+    def SharedSettings(self):
+        pass
+    
+    def __SharedSettings(self, version, bits):
+        # TODO: Write SettingsEncoder in Util directory
+        pass
