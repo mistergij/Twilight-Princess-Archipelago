@@ -11,7 +11,7 @@ class RecolorId(Enum, int):
 class RecolorType(Enum):
     Unknown = 0xFF
     Rgb = 0
-    RgbArrau = 1
+    RgbArray = 1
     
 class Clr0Result:
     def __init__(self, basicDataEntry, complexBytes):
