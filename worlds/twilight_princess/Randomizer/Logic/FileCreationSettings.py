@@ -9,7 +9,7 @@ from Assets.CLR0.clr0Types import RecolorId
 
 
 class FileCreationSettings:
-    def __init__(self, bits):
+    def __init__(self):
         self.gameRegion = None
         self.includeSpoilerLog = True
         self.randomizeBgm = None
