@@ -22,8 +22,8 @@ class Clr0Result:
         self.complexBytes = complexBytes
     
 class Clr0Entry(ABC):
-    recolorId = RecolorId.Zero.value
-    recolorType = RecolorType.Unknown.value
+    recolorId = RecolorId.Zero
+    recolorType = RecolorType.Unknown
     
     @abstractmethod
     def getResult(self):
@@ -39,7 +39,7 @@ class Rgb:
 
 class RgbEntry(Clr0Entry):
     def __init__(self, recolorId, r, g, b):
-        self.recolorType = RecolorType.Rgb.value
+        self.recolorType = RecolorType.Rgb
         self.recolorId = recolorId
         self.rgb = Rgb(r, g, b)
         
