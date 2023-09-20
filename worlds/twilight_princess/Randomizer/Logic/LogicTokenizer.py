@@ -1,8 +1,11 @@
+import sys
 from abc import ABC, abstractmethod
+from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent.parent))
 from Randomizer.Randomizer import Randomizer as rando
 
-  
+
 class Token(ABC):
     pass
 
@@ -91,6 +94,7 @@ class Parser:
                 return True
             
             return False
+        
         elif (list(rando.Logic.TokenDict.keys())[self.tokenValue] is OpenParenthesisToken):
             self.isinParenthesis += 1
             self.tokenValue += 1
@@ -109,9 +113,11 @@ class Parser:
             self.isinParenthesis -= 1
             
             return expinPars
+        
         elif (list(rando.Logic.TokenDict.keys())[self.tokenValue] is ClosedParenthesisToken
               and (self.isinParenthesis == 0)):
             raise Exception(f"Unexpected Closed Parenthesis in location: {self.checkedLogicItem}")
+        
         elif (list(rando.Logic.TokenDict.keys())[self.tokenValue] is itemToken):
             evaluatedItem = list(rando.Logic.TokenDict.values())[self.tokenValue]
             self.tokenValue += 1

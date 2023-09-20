@@ -1,3 +1,11 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from Logic.CheckIds import CheckIdClass
+from Assets.CLR0.clr0Types import Clr0Entry
+
+
 class SettingsEncoder:
     def __init__(self):
         self._charMap = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_"
@@ -40,21 +48,19 @@ class SettingsEncoder:
     
     def EncodeAsVlq16(self, num):
         if num < 65537:
-            return bin(num)[2:]
+            return f"{num:16b}"
         
     def DecodeVlq16(self, bits):
         return int(bits, 2)
-    
+
     def EncodeNumAsBits(self, number, bitLength):
         return bin(number)[2:].zfill(bitLength)
     
 class BitsProcessor:
-    def __init__(self):
+    def __init__(self, bitString):
         self.bits = ""
         self.currentIndex = 0
         self.done = False
-        
-    def BitsProcessor(self, bitString):
         if bitString != None and bitString != "":
             self.bits = bitString
         if len(self.bits) < 0:
@@ -146,5 +152,25 @@ class BitsProcessor:
         while True:
             checkIdNum = self.NextInt(9)
             if (checkIdNum >= 0) and (checkIdNum < 0x1FF):
-                #TODO Write CheckIdClass from Logic/CheckIds
-                pass
+                excludedChecksList.append(CheckIdClass.GetCheckName(checkIdNum))
+            else:
+                break
+            
+        return excludedChecksList
+    
+    def NextVlq16(self):
+        if (self.done) or len(self.bits < (self.current_Index + 16)):
+            raise Exception("Not enough bits remaining.")
+        
+        val = SettingsEncoder.DecodeVlq16(self.bits[self.currentIndex, self.currentIndex + 17])
+        
+        currentIndex += 16
+        
+        if self.currentIndex >= len(self.bits):
+            done = True
+            
+        return val
+    
+    def NextClr0Entry(self, recolorId):
+        
+        pass

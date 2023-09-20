@@ -1,9 +1,12 @@
-from enum import Enum
+import sys
 from abc import ABC, abstractmethod
-from typing import Any
+from enum import Enum
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 
-class RecolorId(Enum, int):
+class RecolorId(Enum):
     Zero = 0xFFFF
     
     CMPR = 0x00
@@ -19,8 +22,8 @@ class Clr0Result:
         self.complexBytes = complexBytes
     
 class Clr0Entry(ABC):
-    recolorId = RecolorId.Zero
-    recolorType = RecolorType.Unknown
+    recolorId = RecolorId.Zero.value
+    recolorType = RecolorType.Unknown.value
     
     @abstractmethod
     def getResult(self):
@@ -36,7 +39,7 @@ class Rgb:
 
 class RgbEntry(Clr0Entry):
     def __init__(self, recolorId, r, g, b):
-        self.recolorType = RecolorType.Rgb
+        self.recolorType = RecolorType.Rgb.value
         self.recolorId = recolorId
         self.rgb = Rgb(r, g, b)
         
