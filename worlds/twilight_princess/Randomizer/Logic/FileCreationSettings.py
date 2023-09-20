@@ -42,7 +42,6 @@ class FileCreationSettings:
         
         self.linkHairColor = None
         
-        self.processor = BitsProcessor(bits)
         
     def _FileCreationSettings(self, bits):
         processor = BitsProcessor(bits)
