@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from Logic.CheckIds import CheckIdClass
-from Assets.CLR0.clr0Types import Clr0Entry
+from Assets.CLR0.clr0Types import Clr0Entry, RecolorType, RgbEntry
 
 
 class SettingsEncoder:
@@ -172,5 +172,14 @@ class BitsProcessor:
         return val
     
     def NextClr0Entry(self, recolorId):
+        enabled = self.NextBool()
+        if not(enabled):
+            return None
         
-        pass
+        recolorType = RecolorType(self.NextByte())
+        
+        r = self.NextByte
+        g = self.NextByte
+        b = self.NextByte
+        
+        return RgbEntry(recolorId, r, g, b)
