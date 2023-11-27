@@ -1,61 +1,61 @@
-from enum import IntEnum
+from enum import Enum
 
-class LogicRules(IntEnum):
+class LogicRules(Enum):
     Glitchless = 0
     Glitched = 1
     No_Logic = 2
 
-class CastleRequirements(IntEnum):
+class CastleRequirements(Enum):
     Open = 0
     Fused_Shadows = 1
     Mirror_Shards = 2
     All_Dungeons = 3
     Vanilla = 4
     
-class PalaceRequirements(IntEnum):
+class PalaceRequirements(Enum):
     Open = 0
     Fused_Shadows = 1
     Mirror_Shards = 2
     Vanilla = 3
     
-class FaronWoodsLogic(IntEnum):
+class FaronWoodsLogic(Enum):
     Open = 0
     Closed = 1
 
-class SmallKeySettings(IntEnum):
+class SmallKeySettings(Enum):
     Vanilla = 0
     Own_Dungeon = 1
     Any_Dungeon = 2
     Anywhere = 3
     Keysy = 4
 
-class BigKeySettings(IntEnum):
+class BigKeySettings(Enum):
     Vanilla = 0
     Own_Dungeon = 1
     Any_Dungeon = 2
     Anywhere = 3
     Start_With = 4
     
-class MapAndCompassSettings(IntEnum):
+class MapAndCompassSettings(Enum):
     Vanilla = 0
     Own_Dungeon = 1
     Any_Dungeon = 2
     Anywhere = 3
     Start_With = 4
     
-class TrapFrequency(IntEnum):
+class TrapFrequency(Enum):
     Zero = 0 # Changed None to Zero due to python built-in type
     Few = 1
     Many = 2
     Mayhem = 3
     Nightmare = 4
     
-class TotEntrance(IntEnum):
+class TotEntrance(Enum):
     Closed = 0
     OpenGrove = 1
     Open = 2
     
-class GoronMinesEntrance(IntEnum):
+class GoronMinesEntrance(Enum):
     Closed = 0
     NoWrestling = 1
     Open = 2
