@@ -47,7 +47,8 @@ location_table: list[Location] = [
         True,
         0x3,
     ),
-    Location("Arbiters Grounds East turning Room Poe", 0x80406610, 0x10, True, 0xA),
+    Location("Arbiters Grounds East Turning Room Poe", 0x80406610, 0x10, True, 0xA),
+    Location("Arbiters Grounds East Upper Turnable Chest", 0x80406610, 0x10, True, 0x3),
     Location(
         "Arbiters Grounds East Upper Turnable Redead Chest", 0x80406610, 0x20, True, 0x3
     ),
@@ -84,7 +85,7 @@ location_table: list[Location] = [
         "Arbiters Grounds West Small Chest Behind Block", 0x80406610, 0x2, True, 0x0
     ),
     Location(
-        "Arbiters Grounds West Stalfor Northeast Cave", 0x80406610, 0x1, True, 0x1
+        "Arbiters Grounds West Stalfos Northeast Cave", 0x80406610, 0x1, True, 0x1
     ),
     Location("Arbiters Grounds West Stalfos West Chest", 0x80406610, 0x2, True, 0x1),
     Location("Ashei Sketch", -1, -1, -1, -1),
@@ -94,11 +95,11 @@ location_table: list[Location] = [
     Location("Bridge of Elldin Male Phasmid", -1, -1, -1, -1),
     Location("Bridge of Eldin Owl Statue Chest", -1, -1, -1, -1),
     Location("Bridge of Eldin Owl Statue Sky Character", -1, -1, -1, -1),
-    Location("Bulbin Camp First Chest Under Tower At Entrance", -1, -1, -1, -1),
-    Location("Bulbin Camp Poe", -1, -1, -1, -1),
-    Location("Bulbin Camp Roasted Board", -1, -1, -1, -1),
-    Location("Bulbin Camp Small Chest in Back of Camp", -1, -1, -1, -1),
-    Location("Bulbin Guard Key", -1, -1, -1, -1),
+    Location("Bulblin Camp First Chest Under Tower At Entrance", -1, -1, -1, -1),
+    Location("Bulblin Camp Poe", -1, -1, -1, -1),
+    Location("Bulblin Camp Roasted Boar", -1, -1, -1, -1),
+    Location("Bulblin Camp Small Chest in Back of Camp", -1, -1, -1, -1),
+    Location("Bulblin Guard Key", -1, -1, -1, -1),
     Location("Castle Town Malo Mart Magic Armor", -1, -1, -1, -1),
     Location("Cats Hide and Seek Minigame", -1, -1, -1, -1),
     Location("Cave of Ordeals Floor 17 Poe", -1, -1, -1, -1),
@@ -175,6 +176,7 @@ location_table: list[Location] = [
     Location("Eldin Field Stalfos Grotto Stalfos Chest", -1, -1, -1, -1),
     Location("Eldin Field Water Bomb Fish Grotto Chest", -1, -1, -1, -1),
     Location("Eldin Lantern Cave First Chest", -1, -1, -1, -1),
+    Location("Eldin Lantern Cave Lantern Chest", -1, -1, -1, -1),
     Location("Eldin Lantern Cave Poe", -1, -1, -1, -1),
     Location("Eldin Lantern Cave Second Chest", -1, -1, -1, -1),
     Location("Eldin Spring Underwater Chest", -1, -1, -1, -1),
