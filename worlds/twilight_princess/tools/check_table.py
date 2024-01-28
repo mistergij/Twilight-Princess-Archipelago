@@ -1,10 +1,10 @@
-"""Table of locations that are available"""
+"""Table of checks that are available"""
 import dataclasses
 
 
 @dataclasses.dataclass
 class Check:
-    """Class that defines locations for locations"""
+    """Class that defines checks for checks"""
 
     name: str
     address: int
@@ -13,7 +13,7 @@ class Check:
     displacement: int
 
 
-location_table: list[Check] = [
+check_table: list[Check] = [
     Check("Agitha Female Ant Reward", 0x804069E4, 0x80, False, -1),
     Check("Agitha Female Beetle Reward", 0x804069E1, 0x8, False, -1),
     Check("Agitha Female Butterfly Reward", 0x804069E1, 0x2, False, -1),
