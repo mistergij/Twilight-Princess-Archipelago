@@ -1,4 +1,4 @@
-"""Table of items to use for sending and receiving"""
+"""Dictionary of items IDs to use for receiving"""
 import dataclasses
 
 
