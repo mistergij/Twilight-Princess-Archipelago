@@ -1,3 +1,4 @@
+"""Client for the Twilight Princess Archipelago Randomizer"""
 import asyncio
 from CommonClient import (
     CommonContext,
