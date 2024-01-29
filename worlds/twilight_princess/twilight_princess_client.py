@@ -8,6 +8,7 @@ from CommonClient import (
     logger,
     server_loop,
 )
+from worlds import network_data_package
 import Utils
 from Utils import Version
 
