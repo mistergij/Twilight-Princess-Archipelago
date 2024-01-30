@@ -656,7 +656,7 @@ check_table: list[Check] = [
     Check("Temple of Time First Staircase Gohma Gate Chest", -1, -1, True, -1),
     Check("Temple of Time First Staircase Window Chest", -1, -1, True, -1),
     Check("Temple of Time Floor Switch Puzzle Room Upper Chest", -1, -1, True, -1),
-    Check("Temple of Time Gilloutine Chest", -1, -1, True, -1),
+    Check("Temple of Time Guilloutine Chest", -1, -1, True, -1),
     Check("Temple of Time Lobby Lantern Chest", -1, -1, True, -1),
     Check("Temple of Time Moving Wall Beamos Room Chest", -1, -1, True, -1),
     Check("Temple of Time Moving Wall Dinalfos Room Chest", -1, -1, True, -1),
