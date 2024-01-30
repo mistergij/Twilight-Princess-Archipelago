@@ -508,4 +508,235 @@ achievement_table: Dict[str, AchievementData] = {
     "Temple of Time Poe Behind Gate": AchievementData(0x47700F4, "Temple of Time"),
     "Temple of Time Scales Gohma Chest": AchievementData(0x47700F5, "Temple of Time"),
     "Temple of Time Scales Upper Chest": AchievementData(0x47700F6, "Temple of Time"),
+    "City in the Sky Aeralfos Chest": AchievementData(0x47700F7, "City in the Sky"),
+    "City in the Sky Argorok Heart Container": AchievementData(
+        0x47700F8, "City in the Sky"
+    ),
+    "City in the Sky Baba Tower Alcove Chest": AchievementData(
+        0x47700F9, "City in the Sky"
+    ),
+    "City in the Sky Baba Tower Narrow Ledge Chest": AchievementData(
+        0x47700FA, "City in the Sky"
+    ),
+    "City in the Sky Baba Tower Top Small Chest": AchievementData(
+        0x47700FB, "City in the Sky"
+    ),
+    "City in the Sky Big Key Chest": AchievementData(0x47700FC, "City in the Sky"),
+    "City in the Sky Central Outside Ledge Chest": AchievementData(
+        0x47700FD, "City in the Sky"
+    ),
+    "City in the Sky Central Outside Poe Island Chest": AchievementData(
+        0x47700FE, "City in the Sky"
+    ),
+    "City in the Sky Chest Behind North Fan": AchievementData(
+        0x47700FF, "City in the Sky"
+    ),
+    "City in the Sky Chest Below Big Key Chest": AchievementData(
+        0x4770100, "City in the Sky"
+    ),
+    "City in the Sky Dungeon Reward": AchievementData(0x4770101, "City in the Sky"),
+    "City in the Sky East First Wing Chest After Fans": AchievementData(
+        0x4770102, "City in the Sky"
+    ),
+    "City in the Sky East Tile Worm Small Chest": AchievementData(
+        0x4770103, "City in the Sky"
+    ),
+    "City in the Sky East Wing After Dinalfos Alcove Chest": AchievementData(
+        0x4770104, "City in the Sky"
+    ),
+    "City in the Sky East Wing After Dinalfos Ledge Chest": AchievementData(
+        0x4770105, "City in the Sky"
+    ),
+    "City in the Sky East Wing Lower Level Chest": AchievementData(
+        0x4770106, "City in the Sky"
+    ),
+    "City in the Sky Garden Island Poe": AchievementData(0x4770107, "City in the Sky"),
+    "City in the Sky Poe Above Central Fan": AchievementData(
+        0x4770108, "City in the Sky"
+    ),
+    "City in the Sky Underwater East Chest": AchievementData(
+        0x4770109, "City in the Sky"
+    ),
+    "City in the Sky Underwater West Chest": AchievementData(
+        0x477010A, "City in the Sky"
+    ),
+    "City in the Sky West Garden Corner Chest": AchievementData(
+        0x477010B, "City in the Sky"
+    ),
+    "City in the Sky West Garden Ledge Chest": AchievementData(
+        0x477010C, "City in the Sky"
+    ),
+    "City in the Sky West Garden Lone Island Chest": AchievementData(
+        0x477010D, "City in the Sky"
+    ),
+    "City in the Sky West Garden Lower Chest": AchievementData(
+        0x477010E, "City in the Sky"
+    ),
+    "City in the Sky West Wing Baba Balcony Chest": AchievementData(
+        0x477010F, "City in the Sky"
+    ),
+    "City in the Sky West Wing First Chest": AchievementData(
+        0x4770110, "City in the Sky"
+    ),
+    "City in the Sky West Wing Narrow Ledge Chest": AchievementData(
+        0x4770111, "City in the Sky"
+    ),
+    "City in the Sky West Wing Tile Worm Chest": AchievementData(
+        0x4770112, "City in the Sky"
+    ),
+    "Palace of Twilight Big Key Chest": AchievementData(
+        0x4770113, "Palace of Twilight"
+    ),
+    "Palace of Twilight Central First Room Chest": AchievementData(
+        0x4770114, "Palace of Twilight"
+    ),
+    "Palace of Twilight Central Outdoor Chest": AchievementData(
+        0x4770115, "Palace of Twilight"
+    ),
+    "Palace of Twilight Central Tower Chest": AchievementData(
+        0x4770116, "Palace of Twilight"
+    ),
+    "Palace of Twilight Collect Both Sols": AchievementData(
+        0x4770117, "Palace of Twilight"
+    ),
+    "Palace of Twilight East Wing First Room East Alcove": AchievementData(
+        0x4770118, "Palace of Twilight"
+    ),
+    "Palace of Twilight East Wing First Room North Small Chest": AchievementData(
+        0x4770119, "Palace of Twilight"
+    ),
+    "Palace of Twilight East Wing First Room West Alcove": AchievementData(
+        0x477011A, "Palace of Twilight"
+    ),
+    "Palace of Twilight East Wing First Room Zant Head Chest": AchievementData(
+        0x477011B, "Palace of Twilight"
+    ),
+    "Palace of Twilight East Wing Second Room Northeast Chest": AchievementData(
+        0x477011C, "Palace of Twilight"
+    ),
+    "Palace of Twilight East Wing Second Room Northwest Chest": AchievementData(
+        0x477011D, "Palace of Twilight"
+    ),
+    "Palace of Twilight East Wing Second Room Southeast Chest": AchievementData(
+        0x477011E, "Palace of Twilight"
+    ),
+    "Palace of Twilight East Wing Second Room Southwest Chest": AchievementData(
+        0x477011F, "Palace of Twilight"
+    ),
+    "Palace of Twilight West Wing Chest Behind Wall of Darkness": AchievementData(
+        0x4770120, "Palace of Twilight"
+    ),
+    "Palace of Twilight West Wing First Room Central Chest": AchievementData(
+        0x4770121, "Palace of Twilight"
+    ),
+    "Palace of Twilight West Wing Second Room Central Chest": AchievementData(
+        0x4770122, "Palace of Twilight"
+    ),
+    "Palace of Twilight West Wing Second Room Lower South Chest": AchievementData(
+        0x4770123, "Palace of Twilight"
+    ),
+    "Palace of Twilight West Wing Second Room Southeast Chest": AchievementData(
+        0x4770124, "Palace of Twilight"
+    ),
+    "Palace of Twilight Zant Heart Container": AchievementData(
+        0x4770125, "Palace of Twilight"
+    ),
+    "Hyrule Castle Big Key Chest": AchievementData(0x4770126, "Hyrule Castle"),
+    "Hyrule Castle East Wing Balcony Chest": AchievementData(
+        0x4770127, "Hyrule Castle"
+    ),
+    "Hyrule Castle East Wing Boomerang Puzzle Chest": AchievementData(
+        0x4770128, "Hyrule Castle"
+    ),
+    "Hyrule Castle Graveyard Grave Switch Room Back Left Chest": AchievementData(
+        0x4770129, "Hyrule Castle"
+    ),
+    "Hyrule Castle Graveyard Grave Switch Room Front Left Chest": AchievementData(
+        0x477012A, "Hyrule Castle"
+    ),
+    "Hyrule Castle Graveyard Grave Switch Room Right Chest": AchievementData(
+        0x477012B, "Hyrule Castle"
+    ),
+    "Hyrule Castle Graveyard Owl Statue Chest": AchievementData(
+        0x477012C, "Hyrule Castle"
+    ),
+    "Hyrule Castle King Bulblin Key": AchievementData(0x477012D, "Hyrule Castle"),
+    "Hyrule Castle Lantern Staircase Chest": AchievementData(
+        0x477012E, "Hyrule Castle"
+    ),
+    "Hyrule Castle Main Hall Northeast Chest": AchievementData(
+        0x477012F, "Hyrule Castle"
+    ),
+    "Hyrule Castle Main Hall Northwest Chest": AchievementData(
+        0x4770130, "Hyrule Castle"
+    ),
+    "Hyrule Castle Main Hall Southwest Chest": AchievementData(
+        0x4770131, "Hyrule Castle"
+    ),
+    "Hyrule Castle Southeast Balcony Tower Chest": AchievementData(
+        0x4770132, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room Eighth Small Chest": AchievementData(
+        0x4770133, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room Fifth Chest": AchievementData(
+        0x4770134, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room Fifth Small Chest": AchievementData(
+        0x4770135, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room First Chest": AchievementData(
+        0x4770136, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room First Small Chest": AchievementData(
+        0x4770137, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room Fourth Chest": AchievementData(
+        0x4770138, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room Fourth Small Chest": AchievementData(
+        0x4770139, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room Second Chest": AchievementData(
+        0x477013A, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room Second Small Chest": AchievementData(
+        0x477013B, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room Seventh Small Chest": AchievementData(
+        0x477013C, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room Sixth Small Chest": AchievementData(
+        0x477013D, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room Third Chest": AchievementData(
+        0x477013E, "Hyrule Castle"
+    ),
+    "Hyrule Castle Treasure Room Third Small Chest": AchievementData(
+        0x477013F, "Hyrule Castle"
+    ),
+    "Hyrule Castle West Courtyard Central Small Chest": AchievementData(
+        0x4770140, "Hyrule Castle"
+    ),
+    "Hyrule Castle West Courtyard North Small Chest": AchievementData(
+        0x4770141, "Hyrule Castle"
+    ),
+    "Ordon Shield": AchievementData(0x4770142, "Ordon Village"),
+    "Ordon Sword": AchievementData(0x4770143, "Ordon Village"),
+    "Faron Field Tree Heart Piece": AchievementData(
+        0x4770144, "Hyrule Field - Faron Field"
+    ),
+    "Cats Hide and Seek Minigame": AchievementData(0x4770145, "Hidden Village"),
+    "Kakariko Gorge Spire Heart Piece": AchievementData(
+        0x4770146, "Hyrule Field - Kakariko Gorge"
+    ),
+    "Kakariko Village Bomb Rock Spire Heart Piece": AchievementData(
+        0x4770147, "Kakariko Village"
+    ),
+    "Fishing Hole Heart Piece": AchievementData(0x4770148, "Fishing Hole"),
+    "Bulblin Camp Roasted Boar": AchievementData(0x4770149, "Bulblin Camp"),
+    "Bulblin Guard Key": AchievementData(0x477014A, "Bulblin Camp"),
+    "Herding Goats Reward": AchievementData(0x477014B, "Ordon Ranch"),
+    "Ordon Cat Rescue": AchievementData(0x477014C, "Ordon Village"),
+    "Uli Cradle Delivery": AchievementData(0x477014D),
 }
