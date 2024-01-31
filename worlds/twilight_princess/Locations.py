@@ -49,7 +49,7 @@ achievement_table: Dict[str, AchievementData] = {
         0x4770013, "Hyrule Field - Eldin Field"
     ),
     "Death Mountain Alcove Chest": AchievementData(0x4770014, "Death Mountain"),
-    "Eldin Field Bomb Rock Crash": AchievementData(
+    "Eldin Field Bomb Rock Chest": AchievementData(
         0x4770015, "Hyrule Field - Eldin Field"
     ),
     "Eldin Field Bomskit Grotto Lantern Chest": AchievementData(
@@ -72,7 +72,7 @@ achievement_table: Dict[str, AchievementData] = {
         0x477001C, "Eldin Lantern Cave"
     ),
     "Eldin Lantern Cave Second Chest": AchievementData(0x477001D, "Eldin Lantern Cave"),
-    "Eldin Spring Underwater Cave": AchievementData(0x477001E, "Kakariko Village"),
+    "Eldin Spring Underwater Chest": AchievementData(0x477001E, "Kakariko Village"),
     "Eldin Stockcave Lantern Chest": AchievementData(0x477001F, "Eldin Stockcave"),
     "Eldin Stockcave Lowest Chest": AchievementData(0x4770020, "Eldin Stockcave"),
     "Eldin Stockcave Upper Chest": AchievementData(0x4770021, "Eldin Stockcave"),
@@ -94,7 +94,7 @@ achievement_table: Dict[str, AchievementData] = {
     "Flight By Fowl Fourth Platform Chest": AchievementData(0x477002A, "Lake Hylia"),
     "Flight By Fowl Second Platform Chest": AchievementData(0x477002B, "Lake Hylia"),
     "Flight By Fowl Third Platform Chest": AchievementData(0x477002C, "Lake Hylia"),
-    "Flight By Fowl Top Platform Chest": AchievementData(0x477002D, "Lake Hylia"),
+    "Flight By Fowl Top Platform Reward": AchievementData(0x477002D, "Lake Hylia"),
     "Hyrule Field Ampitheater Owl Statue Chest": AchievementData(
         0x477002E, "Hyrule Field - Outside West Castle Town"
     ),
@@ -738,5 +738,237 @@ achievement_table: Dict[str, AchievementData] = {
     "Bulblin Guard Key": AchievementData(0x477014A, "Bulblin Camp"),
     "Herding Goats Reward": AchievementData(0x477014B, "Ordon Ranch"),
     "Ordon Cat Rescue": AchievementData(0x477014C, "Ordon Village"),
-    "Uli Cradle Delivery": AchievementData(0x477014D),
+    "Uli Cradle Delivery": AchievementData(0x477014D, "Ordon Village"),
+    "Wrestling With Bo": AchievementData(0x477014E, "Ordon Village"),
+    "Coro Bottle": AchievementData(0x4770150, "South Faron Woods"),
+    "Barnes Bomb Bag": AchievementData(0x4770151, "Kakariko Village"),
+    "Gift From Ralis": AchievementData(0x4770153, "Kakariko Graveyard"),
+    "Goron Springwater Rush": AchievementData(0x4770154, "Hyrule Field - Eldin Field"),
+    "Ilia Charm": AchievementData(0x4770155, "Hidden Village"),
+    "Ilia Memory Reward": AchievementData(0x4770156, "Kakariko Village"),
+    "Renados Letter": AchievementData(0x4770157, "Kakariko Village"),
+    "Rutelas Blessing": AchievementData(0x4770158, "Kakariko Graveyard"),
+    "Skybook From Impaz": AchievementData(0x4770159, "Hidden Village"),
+    "Talo Sharpshooting": AchievementData(0x477015A, "Kakariko Village"),
+    "Agitha Female Ant Reward": AchievementData(0x477015B, "Castle Town"),
+    "Agitha Female Beetle Reward": AchievementData(0x477015C, "Castle Town"),
+    "Agitha Female Butterfly Reward": AchievementData(0x477015D, "Castle Town"),
+    "Agitha Female Dayfly Reward": AchievementData(0x477015E, "Castle Town"),
+    "Agitha Female Dragonfly Reward": AchievementData(0x4770160, "Castle Town"),
+    "Agitha Female Grasshopper Reward": AchievementData(0x4770161, "Castle Town"),
+    "Agitha Female Ladybug Reward": AchievementData(0x4770162, "Castle Town"),
+    "Agitha Female Mantis Reward": AchievementData(0x4770163, "Castle Town"),
+    "Agitha Female Phasmid Reward": AchievementData(0x4770164, "Castle Town"),
+    "Agitha Female Pill Bug Reward": AchievementData(0x4770165, "Castle Town"),
+    "Agitha Female Snail Reward": AchievementData(0x4770166, "Castle Town"),
+    "Agitha Female Stag Beetle Reward": AchievementData(0x4770167, "Castle Town"),
+    "Agitha Male Ant Reward": AchievementData(0x4770168, "Castle Town"),
+    "Agitha Male Beetle Reward": AchievementData(0x4770169, "Castle Town"),
+    "Agitha Male Butterfly Reward": AchievementData(0x477016A, "Castle Town"),
+    "Agitha Male Dayfly Reward": AchievementData(0x477016B, "Castle Town"),
+    "Agitha Male Dragonfly Reward": AchievementData(0x477016C, "Castle Town"),
+    "Agitha Male Grasshopper Reward": AchievementData(0x477016D, "Castle Town"),
+    "Agitha Male Ladybug Reward": AchievementData(0x477016E, "Castle Town"),
+    "Agitha Male Mantis Reward": AchievementData(0x477016F, "Castle Town"),
+    "Agitha Male Phasmid Reward": AchievementData(0x4770170, "Castle Town"),
+    "Agitha Male Pill Bug Reward": AchievementData(0x4770171, "Castle Town"),
+    "Agitha Male Snail Reward": AchievementData(0x4770172, "Castle Town"),
+    "Agitha Male Stag Beetle Reward": AchievementData(0x4770173, "Castle Town"),
+    "Auru Gift to Fyer": AchievementData(0x4770174, "Lake Hylia"),
+    "Charlo Donation Blessing": AchievementData(0x4770175, "Castle Town"),
+    "Iza Helping Hand": AchievementData(0x4770176, "Upper Zoras River"),
+    "Iza Raging Rapids Minigame": AchievementData(0x4770177, "Upper Zoras River"),
+    "Jovani 20 Poe Soul Reward": AchievementData(0x4770178, "Castle Town"),
+    "Jovani 60 Poe Soul Reward": AchievementData(0x4770179, "Castle Town"),
+    "Plumm Fruit Balloon Minigame": AchievementData(0x477017A, "Upper Zoras River"),
+    "STAR Prize 1": AchievementData(0x477017B, "Castle Town"),
+    "STAR Prize 2": AchievementData(0x477017C, "Castle Town"),
+    "Telma Invoice": AchievementData(0x477017D, "Castle Town"),
+    "Zoras Domain Underwater Goron": AchievementData(0x477017E, "Zoras Domain"),
+    "Ashei Sketch": AchievementData(0x477017F, "Snowpeak"),
+    "Snowboard Racing Prize": AchievementData(0x4770180, "Snowpeak"),
+    "Cave of Ordeals Great Fairy Reward": AchievementData(0x4770181, "Cave of Ordeals"),
+    "Faron Field Female Beetle": AchievementData(
+        0x4770182, "Hyrule Field - Faron Field"
+    ),
+    "Faron Field Male Beetle": AchievementData(0x4770183, "Hyrule Field - Faron Field"),
+    "Sacred Grove Female Snail": AchievementData(0x4770184, "Sacred Grove - Past"),
+    "Sacred Grove Male Snail": AchievementData(
+        0x4770185, "Sacred Grove - Master Sword Area"
+    ),
+    "Bridge of Eldin Female Phasmid": AchievementData(
+        0x4770186, "Hyrule Field - Eldin Field"
+    ),
+    "Bridge of Eldin Male Phasmid": AchievementData(
+        0x4770187, "Hyrule Field - Eldin Field"
+    ),
+    "Eldin Field Female Grasshopper": AchievementData(
+        0x4770188, "Hyrule Field - Eldin Field"
+    ),
+    "Eldin Field Male Grasshopper": AchievementData(
+        0x4770189, "Hyrule Field - Eldin Field"
+    ),
+    "Kakariko Gorge Female Pill Bug": AchievementData(
+        0x477018A, "Hyrule Field - Kakariko Gorge"
+    ),
+    "Kakariko Gorge Male Pill Bug": AchievementData(
+        0x477018B, "Hyrule Field - Kakariko Gorge"
+    ),
+    "Kakariko Graveyard Male Ant": AchievementData(0x477018C, "Kakariko Graveyard"),
+    "Kakariko Village Female Ant": AchievementData(0x477018D, "Kakariko Village"),
+    "Lake Hylia Bridge Female Mantis": AchievementData(
+        0x477018E, "Hyrule Field - Bridge of Hylia"
+    ),
+    "Lake Hylia Bridge Male Mantis": AchievementData(
+        0x477018F, "Hyrule Field - Bridge of Hylia"
+    ),
+    "Lanayru Field Female Stag Beetle": AchievementData(
+        0x4770190, "Hyrule Field - Lanayru Field"
+    ),
+    "Lanayru Field Male Stag Beetle": AchievementData(
+        0x4770191, "Hyrule Field - Lanayru Field"
+    ),
+    "Outside South Castle Town Female Ladybug": AchievementData(
+        0x4770192, "Hyrule Field - Outside South Castle Town"
+    ),
+    "Outside South Castle Town Male Ladybug": AchievementData(
+        0x4770193, "Hyrule Field - Outside South Castle Town"
+    ),
+    "Upper Zoras River Female Dragonfly": AchievementData(
+        0x4770194, "Upper Zoras River"
+    ),
+    "West Hyrule Field Female Butterfly": AchievementData(
+        0x4770195, "Hyrule Field - Outside West Castle Town"
+    ),
+    "West Hyrule Field Male Butterfly": AchievementData(
+        0x4770196, "Hyrule Field - Outside West Castle Town"
+    ),
+    "Zoras Domain Male Dragonfly": AchievementData(0x4770197, "Zoras Domain"),
+    "Gerudo Desert Female Dayfly": AchievementData(0x4770198, "Gerudo Desert"),
+    "Gerudo Desert Male Dayfly": AchievementData(0x4770198, "Gerudo Desert"),
+    "Faron Mist Poe": AchievementData(0x4770199, "Faron Mist Area"),
+    "Lost Woods Waterfall Poe": AchievementData(0x477019A, "Lost Woods"),
+    "Sacred Grove Temple of Time Owl Statue Poe": AchievementData(
+        0x477019B, "Sacred Grove - Past"
+    ),
+    "Lost Woods Boulder Poe": AchievementData(0x477019C, "Lost Woods"),
+    "Sacred Grove Master Sword Poe": AchievementData(
+        0x477019D, "Sacred Grove - Master Sword Area"
+    ),
+    "Faron Field Poe": AchievementData(0x477019E, "Hyrule Field - Faron Field"),
+    "Kakariko Gorge Poe": AchievementData(0x477019F, "Hyrule Field - Kakariko Gorge"),
+    "Eldin Lantern Cave Poe": AchievementData(0x47701A0, "Eldin Lantern Cave"),
+    "Kakariko Graveyard Open Poe": AchievementData(0x47701A1, "Kakariko Graveyard"),
+    "Kakariko Graveyard Grave Poe": AchievementData(0x47701A2, "Kakariko Graveyard"),
+    "Kakariko Village Bomb Shop Poe": AchievementData(0x47701A3, "Kakariko Village"),
+    "Kakariko Village Watchtower Poe": AchievementData(0x47701A4, "Kakariko Village"),
+    "Death Mountain Trail Poe": AchievementData(0x47701A5, "Death Mountain"),
+    "Hidden Village Poe": AchievementData(0x47701A6, "Hidden Village"),
+    "Upper Zoras River Poe": AchievementData(0x47701A7, "Upper Zoras River"),
+    "Zoras Domain Mother and Child Isle Poe": AchievementData(
+        0x47701A8, "Zoras Domain"
+    ),
+    "Zoras Domain Waterfall Poe": AchievementData(0x47701A8, "Zoras Domain"),
+    "Snowpeak Blizzard Poe": AchievementData(0x47701A9, "Snowpeak"),
+    "Snowpeak Above Freezard Grotto Poe": AchievementData(0x47701AA, "Snowpeak"),
+    "Snowpeak Poe Among Trees": AchievementData(0x47701AB, "Snowpeak"),
+    "Snowpeak Icy Summit Poe": AchievementData(0x47701AC, "Snowpeak"),
+    "Snowpeak Cave Ice Poe": AchievementData(0x47701AD, "Snowpeak"),
+    "Lanayru Field Bridge Poe": AchievementData(
+        0x47701AE, "Hyrule Field - Lanayru Field"
+    ),
+    "Lanayru Field Poe Grotto Left Poe": AchievementData(
+        0x47701AE, "Hyrule Field - Lanayru Field"
+    ),
+    "Lanayru Field Poe Grotto Right Poe": AchievementData(
+        0x47701AE, "Hyrule Field - Lanayru Field"
+    ),
+    "Outside South Castle Town Poe": AchievementData(
+        0x47701AF, "Hyrule Field - Outside South Castle Town"
+    ),
+    "East Castle Town Bridge Poe": AchievementData(
+        0x47701B0, "Hyrule Field - Outside East Castle Town"
+    ),
+    "Jovani House Poe": AchievementData(0x47701B1, "Castle Town"),
+    "Hyrule Field Ampitheater Poe": AchievementData(
+        0x47701B2,
+        "Hyrule Field - Outside West Castle Town",
+    ),
+    "Flight By Fowl Ledge Poe": AchievementData(0x47701B3, "Lake Hylia"),
+    "Isle of Riches Poe": AchievementData(0x47701B4, "Lake Hylia"),
+    "Lake Hylia Dock Poe": AchievementData(0x47701B5, "Lake Hylia"),
+    "Lake Hylia Tower Poe": AchievementData(0x47701B6, "Lake Hylia"),
+    "Lake Hylia Alcove Poe": AchievementData(0x47701B7, "Lake Hylia"),
+    "Lake Lantern Cave First Poe": AchievementData(0x47701B8, "Lake Lantern Cave"),
+    "Lake Lantern Cave Second Poe": AchievementData(0x47701B9, "Lake Lantern Cave"),
+    "Lake Lantern Cave Final Poe": AchievementData(0x47701BA, "Lake Lantern Cave"),
+    "Lake Hylia Bridge Cliff Poe": AchievementData(
+        0x47701BB, "Hyrule Field - Lake Hylia Bridge"
+    ),
+    "Gerudo Desert East Poe": AchievementData(0x47701BC, "Gerudo Desert"),
+    "Gerudo Desert North Peahat Poe": AchievementData(0x47701BD, "Gerudo Desert"),
+    "Gerudo Desert Rock Grotto First Poe": AchievementData(0x47701BE, "Gerudo Desert"),
+    "Gerudo Desert Rock Grotto Second Poe": AchievementData(0x47701BF, "Gerudo Desert"),
+    "Outside Bulblin Camp Poe": AchievementData(0x47701C0, "Gerudo Desert"),
+    "Bulblin Camp Poe": AchievementData(0x47701C1, "Bulblin Camp"),
+    "Outside Arbiters Grounds Poe": AchievementData(0x47701C2, "Bulblin Camp"),
+    "Gerudo Desert Poe Above Cave of Ordeals": AchievementData(
+        0x47701C3, "Gerudo Desert"
+    ),
+    "Cave of Ordeals Floor 17 Poe": AchievementData(0x47701C4, "Cave of Ordeals"),
+    "Cave of Ordeals Floor 33 Poe": AchievementData(0x47701C5, "Cave of Ordeals"),
+    "Cave of Ordeals Floor 44 Poe": AchievementData(0x47701C5, "Cave of Ordeals"),
+    "Faron Woods Owl Statue Sky Character": AchievementData(
+        0x47701C6, "South Faron Woods"
+    ),
+    "Kakariko Gorge Owl Statue Sky Character": AchievementData(
+        0x47701C7, "Hyrule Field - Kakariko Gorge"
+    ),
+    "Bridge of Eldin Owl Statue Sky Character": AchievementData(
+        0x47701C8, "Hyrule Field - Eldin Field"
+    ),
+    "Hyrule Field Ampitheater Owl Statue Sky Character": AchievementData(
+        0x47701C9, "Hyrule Field - Outside West Castle Town"
+    ),
+    "Lake Hylia Bridge Owl Statue Sky Character": AchievementData(
+        0x47701CA, "Hyrule Field - Bridge of Hylia"
+    ),
+    "Gerudo Desert Owl Statue Sky Character": AchievementData(
+        0x47701CB, "Gerudo Desert"
+    ),
+    "Sera Shop Slingshot": AchievementData(0x47701CC, "Ordon Village"),
+    "Kakariko Village Malo Mart Hawkeye": AchievementData(
+        0x47701CD, "Kakariko Village"
+    ),
+    "Kakariko Village Malo Mart Hylian Shield": AchievementData(
+        0x47701CE, "Kakariko Village"
+    ),
+    "Kakariko Village Malo Mart Red Potion": AchievementData(
+        0x47701CF, "Kakariko Village"
+    ),
+    "Kakariko Village Malo Mart Wooden Shield": AchievementData(
+        0x47701D0, "Kakariko Village"
+    ),
+    "Castle Town Malo Mart Magic Armor": AchievementData(0x47701D1, "Castle Town"),
+    "Ordon Spring Golden Wolf": AchievementData(0x47701D2, "Ordon Spring"),
+    "Faron Woods Golden Wolf": AchievementData(0x47701D3, "North Faron Woods"),
+    "Kakariko Graveyard Golden Wolf": AchievementData(0x47701D4, "Kakariko Graveyard"),
+    "North Castle Town Golden Wolf": AchievementData(0x47701D5, "Castle Town"),
+    "Outside South Castle Town Golden Wolf": AchievementData(
+        0x47701D6, "Hyrule Field - Outside South Castle Town"
+    ),
+    "West Hyrule Field Golden Wolf": AchievementData(
+        0x47701D7, "Hyrule Field - Outside West Castle Town"
+    ),
+    "Gerudo Desert Golden Wolf": AchievementData(0x47701D8, "Gerudo Desert"),
+    "Eldin Field Water Bomb Fish Grotto Chest": AchievementData(
+        0x47701D9, "Hyrule Field - Eldin Field"
+    ),
+    "Mirror Chamber Mirror Shard": AchievementData(0x47701DA, "Arbiters Grounds"),
+}
+
+lookup_id_to_name: Dict[int, str] = {
+    loc_data.id: loc_name
+    for loc_name, loc_data in achievement_table.items()
+    if loc_data.id
 }
