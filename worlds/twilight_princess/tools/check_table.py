@@ -329,9 +329,9 @@ check_table: list[Check] = [
         "Hyrule Castle West Courtyard Central Small Chest", 0x804066B0, 0x20, True, 0x3
     ),
     Check("Hyrule Castle West Courtyard North Small Chest", 0x804066B0, 0x2, True, 0x2),
-    Check("Hyrule Field Amphitheater Owl Statue Chest", -1, -1, -1, -1),
-    Check("Hyrule Field Amphitheater Owl Statue Sky Character", -1, -1, -1, -1),
-    Check("Hyrule Field Amphitheater Poe", -1, -1, -1, -1),
+    Check("Hyrule Field Ampitheater Owl Statue Chest", -1, -1, -1, -1),
+    Check("Hyrule Field Ampitheater Owl Statue Sky Character", -1, -1, -1, -1),
+    Check("Hyrule Field Ampitheater Poe", -1, -1, -1, -1),
     Check("Ilia Charm", -1, -1, -1, -1),
     Check("Ilia Memory Reward", -1, -1, -1, -1),
     Check("Isle of Riches Poe", -1, -1, -1, -1),
