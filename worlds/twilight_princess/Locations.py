@@ -44,7 +44,7 @@ achievement_table: Dict[str, AchievementData] = {
         0x4770010, "Sacred Grove - Temple of Time"
     ),
     "Sacred Grove Spinner Chest": AchievementData(0x4770011, "Lost Woods"),
-    "South Faron Cave Chest": AchievementData(0x4770012, "South Faron Woods Mist Cave"),
+    "South Faron Cave Chest": AchievementData(0x4770012, "South Faron Woods Cave"),
     "Bridge of Eldin Owl Statue Chest": AchievementData(
         0x4770013, "Hyrule Field - Eldin Field"
     ),
@@ -721,8 +721,8 @@ achievement_table: Dict[str, AchievementData] = {
     "Hyrule Castle West Courtyard North Small Chest": AchievementData(
         0x4770141, "Hyrule Castle"
     ),
-    "Ordon Shield": AchievementData(0x4770142, "Ordon Village"),
-    "Ordon Sword": AchievementData(0x4770143, "Ordon Village"),
+    "Ordon Shield": AchievementData(0x4770142, "Ordon Village - Jaggle House"),
+    "Ordon Sword": AchievementData(0x4770143, "Ordon Village - Rusl House"),
     "Faron Field Tree Heart Piece": AchievementData(
         0x4770144, "Hyrule Field - Faron Field"
     ),
@@ -737,9 +737,9 @@ achievement_table: Dict[str, AchievementData] = {
     "Bulblin Camp Roasted Boar": AchievementData(0x4770149, "Bulblin Camp"),
     "Bulblin Guard Key": AchievementData(0x477014A, "Bulblin Camp"),
     "Herding Goats Reward": AchievementData(0x477014B, "Ordon Ranch"),
-    "Ordon Cat Rescue": AchievementData(0x477014C, "Ordon Village"),
+    "Ordon Cat Rescue": AchievementData(0x477014C, "Ordon Village - Sera Shop"),
     "Uli Cradle Delivery": AchievementData(0x477014D, "Ordon Village"),
-    "Wrestling With Bo": AchievementData(0x477014E, "Ordon Village"),
+    "Wrestling With Bo": AchievementData(0x477014E, "Ordon Village - Mayor Bo House"),
     "Coro Bottle": AchievementData(0x4770150, "South Faron Woods"),
     "Barnes Bomb Bag": AchievementData(0x4770151, "Kakariko Village"),
     "Gift From Ralis": AchievementData(0x4770153, "Kakariko Graveyard"),
@@ -936,7 +936,7 @@ achievement_table: Dict[str, AchievementData] = {
     "Gerudo Desert Owl Statue Sky Character": AchievementData(
         0x47701CB, "Gerudo Desert"
     ),
-    "Sera Shop Slingshot": AchievementData(0x47701CC, "Ordon Village"),
+    "Sera Shop Slingshot": AchievementData(0x47701CC, "Ordon Village - Sera Shop"),
     "Kakariko Village Malo Mart Hawkeye": AchievementData(
         0x47701CD, "Kakariko Village"
     ),
