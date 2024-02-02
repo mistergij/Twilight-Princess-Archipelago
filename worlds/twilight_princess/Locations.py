@@ -21,13 +21,13 @@ achievement_table: Dict[str, AchievementData] = {
         0x4770003, "Hyrule Field - Faron Field"
     ),
     "Faron Field Corner Grotto Left Chest": AchievementData(
-        0x4770004, "Hyrule Field - Faron Field"
+        0x4770004, "Faron Field Corner Grotto"
     ),
     "Faron Field Corner Grotto Rear Chest": AchievementData(
-        0x4770005, "Hyrule Field - Faron Field"
+        0x4770005, "Faron Field Corner Grotto"
     ),
     "Faron Field Corner Grotto Right Chest": AchievementData(
-        0x4770006, "Hyrule Field - Faron Field"
+        0x4770006, "Faron Field Corner Grotto"
     ),
     "Faron Mist Cave Lantern Chest": AchievementData(0x4770007, "Faron Mist Cave"),
     "Faron Mist Cave Open Chest": AchievementData(0x4770008, "Faron Mist Cave"),
@@ -39,33 +39,35 @@ achievement_table: Dict[str, AchievementData] = {
     "North Faron Woods Deku Baba Chest": AchievementData(
         0x477000E, "North Faron Woods"
     ),
-    "Sacred Grove Baba Serpent Grotto Chest": AchievementData(0x477000F, "Lost Woods"),
+    "Sacred Grove Baba Serpent Grotto Chest": AchievementData(
+        0x477000F, "Sacred Grove - Baba Serpent Grotto"
+    ),
     "Sacred Grove Past Owl Statue Chest": AchievementData(
-        0x4770010, "Sacred Grove - Temple of Time"
+        0x4770010, "Sacred Grove - Past"
     ),
     "Sacred Grove Spinner Chest": AchievementData(0x4770011, "Lost Woods"),
     "South Faron Cave Chest": AchievementData(0x4770012, "South Faron Woods Cave"),
     "Bridge of Eldin Owl Statue Chest": AchievementData(
         0x4770013, "Hyrule Field - Eldin Field"
     ),
-    "Death Mountain Alcove Chest": AchievementData(0x4770014, "Death Mountain"),
+    "Death Mountain Alcove Chest": AchievementData(0x4770014, "Death Mountain Trail"),
     "Eldin Field Bomb Rock Chest": AchievementData(
         0x4770015, "Hyrule Field - Eldin Field"
     ),
     "Eldin Field Bomskit Grotto Lantern Chest": AchievementData(
-        0x4770016, "Hyrule Field - Eldin Field"
+        0x4770016, "Eldin Field Bomskit Grotto"
     ),
     "Eldin Field Bomskit Grotto Left Chest": AchievementData(
-        0x4770017, "Hyrule Field - Eldin Field"
+        0x4770017, "Eldin Field Bomskit Grotto"
     ),
     "Eldin Field Stalfos Grotto Left Small Chest": AchievementData(
-        0x4770018, "Hyrule Field - Eldin Field"
+        0x4770018, "Eldin Field Stalfos Grotto"
     ),
     "Eldin Field Stalfos Grotto Right Small Chest": AchievementData(
-        0x4770019, "Hyrule Field - Eldin Field"
+        0x4770019, "Eldin Field Stalfos Grotto"
     ),
     "Eldin Field Stalfos Grotto Stalfos Chest": AchievementData(
-        0x477001A, "Hyrule Field - Eldin Field"
+        0x477001A, "Eldin Field Stalfos Grotto"
     ),
     "Eldin Lantern Cave First Chest": AchievementData(0x477001B, "Eldin Lantern Cave"),
     "Eldin Lantern Cave Lantern Chest": AchievementData(
@@ -99,7 +101,7 @@ achievement_table: Dict[str, AchievementData] = {
         0x477002E, "Hyrule Field - Outside West Castle Town"
     ),
     "Lake Hylia Bridge Bubble Grotto Chest": AchievementData(
-        0x477002F, "Hyrule Field - Lake Hylia Bridge"
+        0x477002F, "Hyrule Field - Lake Hylia Bridge Bubble Grotto"
     ),
     "Lake Hylia Bridge Cliff Chest": AchievementData(
         0x4770030, "Hyrule Field - Lake Hylia Bridge"
@@ -110,41 +112,69 @@ achievement_table: Dict[str, AchievementData] = {
     "Lake Hylia Bridge Vines Chest": AchievementData(
         0x4770032, "Hyrule Field - Lake Hylia Bridge"
     ),
-    "Lake Hylia Shell Blade Grotto Chest": AchievementData(0x4770033, "Lake Hylia"),
+    "Lake Hylia Shell Blade Grotto Chest": AchievementData(
+        0x4770033, "Lake Hylia Shell Blade Grotto"
+    ),
     "Lake Hylia Underwater Chest": AchievementData(0x4770034, "Lake Hylia"),
-    "Lake Hylia Water Toadpoli Grotto Chest": AchievementData(0x4770035, "Lake Hylia"),
-    "Lake Lantern Cave Eighth Chest": AchievementData(0x4770036, "Lake Lantern Cave"),
-    "Lake Lantern Cave Eleventh Chest": AchievementData(0x4770037, "Lake Lantern Cave"),
+    "Lake Hylia Water Toadpoli Grotto Chest": AchievementData(
+        0x4770035, "Lake Hylia Water Toadpoli Grotto"
+    ),
+    "Lake Lantern Cave Eighth Chest": AchievementData(
+        0x4770036, "Lake Hylia Lantern Cave"
+    ),
+    "Lake Lantern Cave Eleventh Chest": AchievementData(
+        0x4770037, "Lake Hylia Lantern Cave"
+    ),
     "Lake Lantern Cave End Lantern Chest": AchievementData(
-        0x4770038, "Lake Lantern Cave"
+        0x4770038, "Lake Hylia Lantern Cave"
     ),
-    "Lake Lantern Cave Fifth Chest": AchievementData(0x4770039, "Lake Lantern Cave"),
-    "Lake Lantern Cave First Chest": AchievementData(0x477003A, "Lake Lantern Cave"),
+    "Lake Lantern Cave Fifth Chest": AchievementData(
+        0x4770039, "Lake Hylia Lantern Cave"
+    ),
+    "Lake Lantern Cave First Chest": AchievementData(
+        0x477003A, "Lake Hylia Lantern Cave"
+    ),
     "Lake Lantern Cave Fourteenth Chest": AchievementData(
-        0x477003B, "Lake Lantern Cave"
+        0x477003B, "Lake Hylia Lantern Cave"
     ),
-    "Lake Lantern Cave Fourth Chest": AchievementData(0x477003C, "Lake Lantern Cave"),
-    "Lake Lantern Cave Ninth Chest": AchievementData(0x477003D, "Lake Lantern Cave"),
-    "Lake Lantern Cave Second Chest": AchievementData(0x477003E, "Lake Lantern Cave"),
-    "Lake Lantern Cave Seventh Chest": AchievementData(0x477003F, "Lake Lantern Cave"),
-    "Lake Lantern Cave Sixth Chest": AchievementData(0x4770040, "Lake Lantern Cave"),
-    "Lake Lantern Cave Tenth Chest": AchievementData(0x4770041, "Lake Lantern Cave"),
-    "Lake Lantern Cave Third Chest": AchievementData(0x4770042, "Lake Lantern Cave"),
+    "Lake Lantern Cave Fourth Chest": AchievementData(
+        0x477003C, "Lake Hylia Lantern Cave"
+    ),
+    "Lake Lantern Cave Ninth Chest": AchievementData(
+        0x477003D, "Lake Hylia Lantern Cave"
+    ),
+    "Lake Lantern Cave Second Chest": AchievementData(
+        0x477003E, "Lake Hylia Lantern Cave"
+    ),
+    "Lake Lantern Cave Seventh Chest": AchievementData(
+        0x477003F, "Lake Hylia Lantern Cave"
+    ),
+    "Lake Lantern Cave Sixth Chest": AchievementData(
+        0x4770040, "Lake Hylia Lantern Cave"
+    ),
+    "Lake Lantern Cave Tenth Chest": AchievementData(
+        0x4770041, "Lake Hylia Lantern Cave"
+    ),
+    "Lake Lantern Cave Third Chest": AchievementData(
+        0x4770042, "Lake Hylia Lantern Cave"
+    ),
     "Lake Lantern Cave Thirteenth Chest": AchievementData(
-        0x4770043, "Lake Lantern Cave"
+        0x4770043, "Lake Hylia Lantern Cave"
     ),
-    "Lake Lantern Cave Twelfth Chest": AchievementData(0x4770044, "Lake Lantern Cave"),
+    "Lake Lantern Cave Twelfth Chest": AchievementData(
+        0x4770044, "Lake Hylia Lantern Cave"
+    ),
     "Lanayru Field Behind Gate Underwater Chest": AchievementData(
         0x4770045, "Hyrule Field - Lanayru Field"
     ),
     "Lanayru Field Skulltula Grotto Chest": AchievementData(
-        0x4770046, "Hyrule Field - Lanayru Field"
+        0x4770046, "Lanayru Field Skulltula Grotto"
     ),
     "Lanayru Field Spinner Track Chest": AchievementData(
         0x4770047, "Hyrule Field - Lanayru Field"
     ),
     "Lanayru Ice Block Puzzle Cave Chest": AchievementData(
-        0x4770048, "Hyrule Field - Lanayru Ice Puzzle Cave"
+        0x4770048, "Lanayru Ice Puzzle Cave"
     ),
     "Lanayru Spring Back Room Lantern Chest": AchievementData(0x4770049, "Lake Hylia"),
     "Lanayru Spring Back Room Left Chest": AchievementData(0x477004A, "Lake Hylia"),
@@ -190,7 +220,9 @@ achievement_table: Dict[str, AchievementData] = {
     ),
     "Zoras Domain Light All Torches Chest": AchievementData(0x477005B, "Zoras Domain"),
     "Snowpeak Cave Ice Lantern Chest": AchievementData(0x477005C, "Snowpeak"),
-    "Snowpeak Freezard Grotto Chest": AchievementData(0x477005D, "Snowpeak"),
+    "Snowpeak Freezard Grotto Chest": AchievementData(
+        0x477005D, "Snowpeak Freezard Grotto"
+    ),
     "Bulblin Camp First Chest Under Tower At Entrance": AchievementData(
         0x477005E, "Bulblin Camp"
     ),
@@ -214,9 +246,11 @@ achievement_table: Dict[str, AchievementData] = {
     "Gerudo Desert Owl Statue Chest": AchievementData(0x4770068, "Gerudo Desert"),
     "Gerudo Desert Peahat Ledge Chest": AchievementData(0x4770069, "Gerudo Desert"),
     "Gerudo Desert Rock Grotto Lantern Chest": AchievementData(
-        0x477006A, "Gerudo Desert"
+        0x477006A, "Gerudo Desert Rock Grotto"
     ),
-    "Gerudo Desert Skulltula Grotto Chest": AchievementData(0x477006B, "Gerudo Desert"),
+    "Gerudo Desert Skulltula Grotto Chest": AchievementData(
+        0x477006B, "Gerudo Desert Skulltula Grotto"
+    ),
     "Gerudo Desert South Chest Behind Wooden Gates": AchievementData(
         0x477006C, "Gerudo Desert"
     ),
@@ -787,7 +821,9 @@ achievement_table: Dict[str, AchievementData] = {
     "Zoras Domain Underwater Goron": AchievementData(0x477017E, "Zoras Domain"),
     "Ashei Sketch": AchievementData(0x477017F, "Snowpeak"),
     "Snowboard Racing Prize": AchievementData(0x4770180, "Snowpeak"),
-    "Cave of Ordeals Great Fairy Reward": AchievementData(0x4770181, "Cave of Ordeals"),
+    "Cave of Ordeals Great Fairy Reward": AchievementData(
+        0x4770181, "Cave of Ordeals Floors 42-50"
+    ),
     "Faron Field Female Beetle": AchievementData(
         0x4770182, "Hyrule Field - Faron Field"
     ),
@@ -862,7 +898,7 @@ achievement_table: Dict[str, AchievementData] = {
     "Kakariko Graveyard Grave Poe": AchievementData(0x47701A2, "Kakariko Graveyard"),
     "Kakariko Village Bomb Shop Poe": AchievementData(0x47701A3, "Kakariko Village"),
     "Kakariko Village Watchtower Poe": AchievementData(0x47701A4, "Kakariko Village"),
-    "Death Mountain Trail Poe": AchievementData(0x47701A5, "Death Mountain"),
+    "Death Mountain Trail Poe": AchievementData(0x47701A5, "Death Mountain Trail"),
     "Hidden Village Poe": AchievementData(0x47701A6, "Hidden Village"),
     "Upper Zoras River Poe": AchievementData(0x47701A7, "Upper Zoras River"),
     "Zoras Domain Mother and Child Isle Poe": AchievementData(
@@ -878,10 +914,10 @@ achievement_table: Dict[str, AchievementData] = {
         0x47701AE, "Hyrule Field - Lanayru Field"
     ),
     "Lanayru Field Poe Grotto Left Poe": AchievementData(
-        0x47701AE, "Hyrule Field - Lanayru Field"
+        0x47701AE, "Lanayru Field Poe Grotto"
     ),
     "Lanayru Field Poe Grotto Right Poe": AchievementData(
-        0x47701AE, "Hyrule Field - Lanayru Field"
+        0x47701AE, "Lanayru Field Poe Grotto"
     ),
     "Outside South Castle Town Poe": AchievementData(
         0x47701AF, "Hyrule Field - Outside South Castle Town"
@@ -899,25 +935,41 @@ achievement_table: Dict[str, AchievementData] = {
     "Lake Hylia Dock Poe": AchievementData(0x47701B5, "Lake Hylia"),
     "Lake Hylia Tower Poe": AchievementData(0x47701B6, "Lake Hylia"),
     "Lake Hylia Alcove Poe": AchievementData(0x47701B7, "Lake Hylia"),
-    "Lake Lantern Cave First Poe": AchievementData(0x47701B8, "Lake Lantern Cave"),
-    "Lake Lantern Cave Second Poe": AchievementData(0x47701B9, "Lake Lantern Cave"),
-    "Lake Lantern Cave Final Poe": AchievementData(0x47701BA, "Lake Lantern Cave"),
+    "Lake Lantern Cave First Poe": AchievementData(
+        0x47701B8, "Lake Hylia Lantern Cave"
+    ),
+    "Lake Lantern Cave Second Poe": AchievementData(
+        0x47701B9, "Lake Hylia Lantern Cave"
+    ),
+    "Lake Lantern Cave Final Poe": AchievementData(
+        0x47701BA, "Lake Hylia Lantern Cave"
+    ),
     "Lake Hylia Bridge Cliff Poe": AchievementData(
         0x47701BB, "Hyrule Field - Lake Hylia Bridge"
     ),
     "Gerudo Desert East Poe": AchievementData(0x47701BC, "Gerudo Desert"),
     "Gerudo Desert North Peahat Poe": AchievementData(0x47701BD, "Gerudo Desert"),
-    "Gerudo Desert Rock Grotto First Poe": AchievementData(0x47701BE, "Gerudo Desert"),
-    "Gerudo Desert Rock Grotto Second Poe": AchievementData(0x47701BF, "Gerudo Desert"),
+    "Gerudo Desert Rock Grotto First Poe": AchievementData(
+        0x47701BE, "Gerudo Desert Rock Grotto"
+    ),
+    "Gerudo Desert Rock Grotto Second Poe": AchievementData(
+        0x47701BF, "Gerudo Desert Rock Grotto"
+    ),
     "Outside Bulblin Camp Poe": AchievementData(0x47701C0, "Gerudo Desert"),
     "Bulblin Camp Poe": AchievementData(0x47701C1, "Bulblin Camp"),
     "Outside Arbiters Grounds Poe": AchievementData(0x47701C2, "Bulblin Camp"),
     "Gerudo Desert Poe Above Cave of Ordeals": AchievementData(
         0x47701C3, "Gerudo Desert"
     ),
-    "Cave of Ordeals Floor 17 Poe": AchievementData(0x47701C4, "Cave of Ordeals"),
-    "Cave of Ordeals Floor 33 Poe": AchievementData(0x47701C5, "Cave of Ordeals"),
-    "Cave of Ordeals Floor 44 Poe": AchievementData(0x47701C5, "Cave of Ordeals"),
+    "Cave of Ordeals Floor 17 Poe": AchievementData(
+        0x47701C4, "Cave of Ordeals Floors 12-21"
+    ),
+    "Cave of Ordeals Floor 33 Poe": AchievementData(
+        0x47701C5, "Cave of Ordeals Floors 32-41"
+    ),
+    "Cave of Ordeals Floor 44 Poe": AchievementData(
+        0x47701C5, "Cave of Ordeals Floors 42-50"
+    ),
     "Faron Woods Owl Statue Sky Character": AchievementData(
         0x47701C6, "South Faron Woods"
     ),
@@ -962,7 +1014,7 @@ achievement_table: Dict[str, AchievementData] = {
     ),
     "Gerudo Desert Golden Wolf": AchievementData(0x47701D8, "Gerudo Desert"),
     "Eldin Field Water Bomb Fish Grotto Chest": AchievementData(
-        0x47701D9, "Hyrule Field - Eldin Field"
+        0x47701D9, "Eldin Field Water Bomb Fish Grotto"
     ),
     "Mirror Chamber Mirror Shard": AchievementData(0x47701DA, "Arbiters Grounds"),
 }
