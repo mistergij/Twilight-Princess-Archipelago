@@ -201,7 +201,7 @@ twilight_princess_regions = [
     ("Temple of Time", []),
     ("City in the Sky", []),
     ("Hyrule Castle", []),
-    ("Palace of Twilight"),
+    ("Palace of Twilight", []),
 ]
 
 mandatory_connections = []
